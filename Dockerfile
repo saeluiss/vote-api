@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/openshift/golang:latest as builder
+FROM golang:alpineas builder as builder
 
 WORKDIR /build
 ADD . /build/
