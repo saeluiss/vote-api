@@ -1,4 +1,4 @@
-FROM golang:alpineas builder as builder
+FROM golang:alpineas as builder
 
 WORKDIR /build
 ADD . /build/
